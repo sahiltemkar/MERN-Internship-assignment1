@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS task 2</title>
+</head>
+<style>
+    ul,tr, td {
+        list-style-type: none;
+        background-color:  rgb(56, 186, 215);
+        margin : 0;
+        padding: 0;
+    }
+    .v{
+        width: 100px;
+    }
+    .h{
+        width: 320px;
+    }
+    a{
+        text-decoration: none;
+        padding-left : 10px;
+        padding-right: 10px;
+    }
+     
+    .home{
+        background-color: #04AA6D;
+    }
+    table{
+        border: 1px solid black;
+        padding: 7px;
+    }
+    .hori{
+        float: left;
+    }
+</style>
+<body>
+    <table>
+        <tr class="v">
+            <td class="v">
+                <ul class="v">
+                    <li class="home"><a href="">Home</a></li>
+                    <li><a href="">Java</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">Boothstrap</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table><br>
+    <table>
+        <tr class="h">
+            <td class="h">
+                <ul class="h">
+                    <li class = "hori"><a href="" class="home">Home</a></li>
+                    <li class = "hori"><a href="">Java</a></li>
+                    <li class = "hori"><a href="">CSS</a></li>
+                    <li class = "hori"><a href="">HTML</a></li>
+                    <li class = "hori"><a href="">Boothstrap</a></li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
